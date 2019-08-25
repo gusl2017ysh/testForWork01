@@ -74,6 +74,18 @@ $(document).ready(() => {
     console.log(e);
 
   })
+  .on('select2:unselect', e => {
+    
+    debugger
+    console.log(e);
+
+  })
+  .on('select2:clear', e => {
+    
+    debugger
+    console.log(e);
+
+  })
 
 
 
